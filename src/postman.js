@@ -1,7 +1,11 @@
 // POSTMAN.JS
 
-function logger(msg) {
-    console.log(msg);
+class Postman {
+    logger(msg) {
+        console.log(msg);
+    }
 }
 
-export { logger };
+let postman = new Postman();
+
+export { postman }
