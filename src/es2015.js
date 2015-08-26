@@ -1,4 +1,4 @@
 // ES2015.JS
-import { logger } from './postman';
+import { postman } from './postman';
 
-logger('Hello beautiful world of ES2015, with an import!');
+postman.logger('Hello beautiful world of ES2015, with a named import!');
