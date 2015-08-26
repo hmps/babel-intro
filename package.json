@@ -1,0 +1,23 @@
+{
+  "name": "babel-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.1",
+    "live-server": "^0.8.1"
+  },
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  }
+}
